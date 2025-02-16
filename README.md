@@ -25,7 +25,8 @@ The site is maintained by the [OSIRIS Lab](https://osiris.cyber.nyu.edu/) in col
 3. Create a virtual environment. If this step doesn't work, follow this for [**python-venv**](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/). 
     ```sh
     python3 -m venv .venv
-    source .venv/bin/activate
+    source .venv/bin/activate (mac)
+    .venv\Scripts\activate (win)
     ```
 
 4. Install the necessary packages.
